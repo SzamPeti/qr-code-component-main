@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -26,15 +29,17 @@ body {
   transform: translate(-50%, -50%);
   background-color: hsl(0, 0%, 100%);
   border-radius: 5%;
-  max-width: 17rem;
+  width: 17rem;
+  /* box-shadow: 10px 10px 100px 0 hsl(220, 15%, 55%); */
 }
 
 .qr {
-  padding-top: 1rem;
+  padding-top: 0.75rem;
 }
+
 .img-qr {
   border-radius: 5%;
-  width: 15rem;
+  width: 15.5rem;
 }
 
 p {
@@ -45,9 +50,32 @@ p {
 .p1 {
   font-weight: 700;
   font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .p2 {
   font-weight: 400;
   color: hsl(220, 15%, 55%);
+  font-family: "Outfit", sans-serif;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
 }
+
+/* @media screen and (max-width: 375px) { 
+  .qr {
+    width: 10rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  img {
+    width: 110px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .qr-box {
+    width: 18rem;
+  }
+} */
